@@ -3842,10 +3842,7 @@
 	font-weight:bold;
 	
 }
-#galerija {
-	text-decoration:underline;
-	
-}
+
 .slike{
 	width:960px;
 	margin:10px auto;
@@ -3864,7 +3861,7 @@
 }
 .slicica img{
 	border-radius:10px;
-	width:200px;
-	height:200px;
+	width:800px;
+	height:500px;
 	
 }
