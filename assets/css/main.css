@@ -3821,7 +3821,7 @@
 	}
 #galerija{
 	
-	width:1080px;
+	width:800px;
 	margin:20px auto;
 	
 	
@@ -3848,7 +3848,7 @@
 	margin:10px auto;
 }
 .slika{
-	float:left;
+	float:center;
 }
 .slika img{
 	margin:10px 10px;
