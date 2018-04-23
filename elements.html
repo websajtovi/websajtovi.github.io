@@ -6,7 +6,49 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
+		<script type="text/javascript">
+				$(document).ready(function()
+					{
+						$(".slicica a").vanillabox();
+					
+					
+						//funkcije za podmeni
+						$('#navigacija ul li').hover(function(e)
+					{
+						$(this).find('ul:first').show('slow');
+					},
+				
+					function()
+					{
+						$(this).find('ul:first').hide('slow');
+				
+					});
+					
+					var pocetnaVrednost=0;
+					slajder();
+					
+					function slajder()
+					{
+						var x=$('.slajd');
+						for(var i=0;i<x.length;i++){
+							$(x[i]).css({'display':'none'});
+						}
+						pocetnaVrednost++;
+						if(pocetnaVrednost>x.length){
+						pocetnaVrednost=1}
+						$(x[pocetnaVrednost-1]).css({'display':'block'});
+						setTimeout(slajder,2000);
+						}
+					
+					
+					
+					
+					
+					
+					
+				});
+
+		</script>
 	</head>
 	<body>
 
@@ -116,10 +158,29 @@
 									<h5></h5>
 									<div class="box alt">
 										<div class="row uniform 50%">
-											<div class="12u"><span class="image fit"><img src="images/radioja2.jpg" alt="" /></span></div>
-											<div class="4u"><span class="image fit"><img src="images/pravioja1.jpg" alt="" /></span></div>
-											<div class="4u"><span class="image fit"><img src="images/pravioja3.jpg" alt="" /></span></div>
-											<div class="4u"><span class="image fit"><img src="images/radioja4.jpg" alt="" /></span></div>
+											<div class="slike">
+				<div class="slicica">
+				<a href='images/radioja2.jpg' class="galerija1">
+					<img src="images/radioja2.jpg"/>
+				</a>
+				</div>
+			
+				<div class="slicica">
+					<a href='images/pravioja1.jpg' class="galerija1">
+					<img src="images/pravioja1.jpg"/>
+				</a>
+				</div>
+			
+				<div class="slicica">
+				<a href='images/pravioja3.jpg' class="galerija1">
+					<img src="images/pravioja3.jpg"/>
+				</a>
+				</div>
+				<div class="slicica">
+					<a href='images/radioja4.jpg' class="galerija1">
+					<img src="images/radioja4.jpg"/>
+				</a>
+				</div>
 											
 										</div>
 									</div>
