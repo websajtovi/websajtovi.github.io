@@ -3819,8 +3819,9 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-	#galerija{
-	width:720px;
+#galerija{
+	
+	width:1080px;
 	margin:20px auto;
 	
 	
