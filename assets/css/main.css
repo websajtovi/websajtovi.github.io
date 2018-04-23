@@ -3819,3 +3819,51 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	#galerija{
+	width:720px;
+	margin:20px auto;
+	
+	
+}
+#galerija li{
+	width:300px;
+	margin:0 30px;
+	float:left;
+	display:block;
+	
+}
+
+#galerija span{
+	text-align:center;
+	margin:20px 0px;
+	display:block;
+	font-size:16px;
+	font-weight:bold;
+	
+}
+#galerija {
+	text-decoration:underline;
+	
+}
+.slike{
+	width:960px;
+	margin:10px auto;
+}
+.slika{
+	float:left;
+}
+.slika img{
+	margin:10px 10px;
+	border-radius:10px;
+	background:#ffff00;
+}
+.slicica{
+	margin:10px 20px;
+	float:left;
+}
+.slicica img{
+	border-radius:10px;
+	width:200px;
+	height:200px;
+	
+}
